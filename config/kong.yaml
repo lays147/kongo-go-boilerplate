@@ -1,0 +1,10 @@
+_format_version: "3.0"
+_transform: false
+
+# This config enables the plugin globally
+plugins:
+  - name: kong-plugin-template
+    config:
+      key: foo
+    tags:
+      - kong-plugin-template
